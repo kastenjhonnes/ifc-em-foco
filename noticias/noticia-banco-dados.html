@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratório de Banco de Dados — IFC em Foco</title>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/noticia.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="../index.html" class="logo" aria-label="Página inicial do IFC em Foco">
+          <span class="logo-mark">IF</span>
+          <span class="logo-text">IFC em Foco</span>
+        </a>
+        <nav class="site-nav" aria-label="Menu principal">
+          <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../noticias.html">Notícias</a></li>
+            <li><a href="../eventos.html">Eventos</a></li>
+            <li><a href="../projetos.html">Projetos</a></li>
+            <li><a href="../sobre.html">Sobre</a></li>
+            <li><a href="../contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <article class="noticia-full">
+        <header class="noticia-header">
+          <p class="tag">Cursos</p>
+          <h1>Curso técnico ganha laboratório de banco de dados</h1>
+          <p class="subtitulo">
+            Espaço foi montado com apoio de empresas parceiras do campus e já
+            está em uso pelos estudantes.
+          </p>
+          <p class="meta">
+            Publicado em
+            <time datetime="2026-08-19T21:06">19 de agosto de 2026 às 21:06</time>
+          </p>
+        </header>
+
+        <figure class="imagem-publicacao">
+          <img
+            src="../img/laboratorio.png"
+            alt="Laboratório de banco de dados do campus com computadores enfileirados"
+          />
+          <figcaption>
+            Novo laboratório de banco de dados, montado no bloco B.
+          </figcaption>
+        </figure>
+
+        <p>
+          O curso técnico do campus inaugurou nesta semana um novo laboratório
+          dedicado ao ensino de banco de dados. O espaço conta com 30
+          computadores atualizados, servidor local para práticas e uma lousa
+          digital para aulas expositivas.
+        </p>
+
+        <p>
+          A estrutura foi montada com apoio de empresas parceiras da região, que
+          doaram parte dos equipamentos e contribuíram com a configuração do
+          ambiente de rede. Segundo a coordenação, o objetivo é aproximar os
+          estudantes das ferramentas usadas no mercado de trabalho.
+        </p>
+
+        <h2>O que os estudantes vão aprender</h2>
+        <ul>
+          <li>Modelagem de dados e diagramas entidade-relacionamento;</li>
+          <li>Linguagem SQL (DDL e DML);</li>
+          <li>Consultas, junções e subconsultas;</li>
+          <li>Administração básica de servidores MySQL e PostgreSQL.</li>
+        </ul>
+
+        <p>
+          As primeiras turmas já começaram a usar o laboratório nesta semana,
+          com aulas práticas de criação de tabelas e inserção de registros. A
+          previsão é que, até o fim do semestre, todos os módulos do curso
+          técnico passem pelo espaço.
+        </p>
+
+        <p class="voltar">
+          <a href="../noticias.html">← Voltar para a lista de notícias</a>
+        </p>
+
+        <footer class="avaliacao">
+          <h2>Avalie esta publicação</h2>
+          <form method="post" action="#">
+            <div class="campo">
+              <label for="nome-avaliacao">Seu nome:</label>
+              <input
+                type="text"
+                id="nome-avaliacao"
+                name="nome-avaliacao"
+                required
+                minlength="3"
+                maxlength="60"
+              />
+            </div>
+
+            <fieldset>
+              <legend>Nota:</legend>
+              <label><input type="radio" name="nota" value="1" required /> 1 estrela</label>
+              <label><input type="radio" name="nota" value="2" /> 2 estrelas</label>
+              <label><input type="radio" name="nota" value="3" /> 3 estrelas</label>
+              <label><input type="radio" name="nota" value="4" /> 4 estrelas</label>
+              <label><input type="radio" name="nota" value="5" /> 5 estrelas</label>
+            </fieldset>
+
+            <div class="campo">
+              <label for="comentario">Comentário:</label>
+              <textarea
+                id="comentario"
+                name="comentario"
+                rows="4"
+                required
+                minlength="10"
+                maxlength="500"
+              ></textarea>
+            </div>
+
+            <button type="submit">Salvar avaliação</button>
+          </form>
+        </footer>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>IFC em Foco</strong>
+          <p>Portal escolar desenvolvido na disciplina de Desenvolvimento Web I.</p>
+        </div>
+        <nav aria-label="Rodapé">
+          <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../noticias.html">Notícias</a></li>
+            <li><a href="../eventos.html">Eventos</a></li>
+            <li><a href="../projetos.html">Projetos</a></li>
+            <li><a href="../sobre.html">Sobre</a></li>
+            <li><a href="../contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="copy">© 2026 IFC em Foco — Projeto acadêmico.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+.contato-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-lg);
+  align-items: flex-start;
+}
+
+.contato-form {
+  flex: 2 1 380px;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-grande);
+  padding: var(--espaco-lg);
+  box-shadow: var(--sombra);
+}
+
+.contato-info {
+  flex: 1 1 260px;
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border-radius: var(--raio-grande);
+  padding: var(--espaco-lg);
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contato-info h2 {
+  color: var(--cor-destaque);
+  font-size: 1.1rem;
+  margin-top: 0.75rem;
+}
+
+.contato-info h2:first-child {
+  margin-top: 0;
+}
+
+.contato-info p {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.redes a {
+  color: #e5e7eb;
+  transition: color var(--transicao);
+}
+
+.redes a:hover,
+.redes a:focus-visible {
+  color: var(--cor-destaque);
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (max-width: 720px) {
+  .contato-form {
+    padding: var(--espaco-md);
+  }
+}
