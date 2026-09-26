@@ -6,7 +6,8 @@
     <title>Notícias — IFC em Foco</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/noticias.css" />
+    <link rel="stylesheet" href="./assets/css/cursos.css" />
+    <link rel="stylesheet" href="./assets/css/projetos.css">
   </head>
 
   <body>
@@ -19,7 +20,7 @@
         <nav class="site-nav" aria-label="Menu principal">
           <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="noticias.html" aria-current="page">Notícias</a></li>
+            <li><a href="cursos.html" aria-current="page"> Cursos</a></li>
             <li><a href="eventos.html">Eventos</a></li>
             <li><a href="projetos.html">Projetos</a></li>
             <li><a href="sobre.html">Sobre</a></li>
@@ -31,17 +32,18 @@
 
     <main class="container section">
       <header class="section-header">
-        <h1>Notícias</h1>
+        <h1>Cursos Do Instituto Federal</h1>
         <p>Acompanhe as novidades do campus, dos cursos e da comunidade escolar.</p>
       </header>
 
-      <!-- Filtro -->
+      <!-- Filtro de pesquisa , categoria , tecnologia -->
       <section class="filtro" aria-label="Filtro de notícias">
-        <form method="get" action="noticias.html">
+        <form method="get" action="cursos.html">
           <div class="campo">
             <label for="busca">Pesquisar:</label>
             <input type="search" id="busca" name="busca" placeholder="Digite uma palavra-chave" />
           </div>
+      
 
           <div class="campo">
             <label for="categoria">Categoria:</label>
@@ -50,7 +52,11 @@
               <option value="campus">Campus</option>
               <option value="cursos">Cursos</option>
               <option value="tecnologia">Tecnologia</option>
+               <option value="tecnologia">Tecnologo</option>
+                <option value="tecnologia">Bacharelado</option>
               <option value="esportes">Esportes</option>
+               <option value="tecnologia">Infraestrutura</option>
+                <option value="tecnologia">Redes</option>
             </select>
           </div>
 
@@ -68,61 +74,59 @@
           <button type="submit">Filtrar notícias</button>
         </form>
       </section>
+      <!--- Filtro de pesquisa , categoria , tecnologia -->
 
       <!-- Lista -->
-      <section class="noticias-lista">
-        <article class="noticia-card">
+      <!-- ABA DE CURSOS EM PROCESSO -->
+       
+      <!-- curso (rede de computadores)-->
+       
+       <article class="projeto">
           <figure>
-            <img src="./img/estudantes.png" alt="Estudantes em apresentação de projeto" />
-            <figcaption>Apresentação na Semana de Tecnologia.</figcaption>
+            <!-- rede de computadores-->
+            <img src="./img/redes.png" alt="curso para estudantes" />
+            <figcaption> Curso Superior de Tecnologia em Redes de Computadores.</figcaption>
           </figure>
-          <div class="noticia-conteudo">
-            <p class="tag">Tecnologia</p>
-            <h2>Semana de Tecnologia reúne mais de 200 estudantes</h2>
-            <p class="subtitulo">
-              Evento contou com palestras, workshops e um hackathon de 24 horas.
+          <div class="projeto-corpo">
+            <p class="tag">Curso</p>
+            <h2>Rede de computadores</h2>
+            <p>
+              o curso oferecido tem por objetivo formar profissionais com amplo conhecimento em projetos, análise de requisitos para o desenvolvimento de sistemas de comunicação e gestão de redes de computadores, de forma a atender a demanda de mercado, justificada pelos levantamentos técnicos e pesquisas realizadas na comunidade da região. 
             </p>
-            <p class="meta">
-              Publicado em <time datetime="2026-08-21T21:06">21 de agosto de 2026</time>
-            </p>
-            <a class="card-link" href="./noticias/noticia-html.html">Ler mais...</a>
+            <ul class="projeto-tags">
+              <li>Redes</li>
+              <li>Infra</li>
+              <li>Tecnologia</li>
+            </ul>
+            <a class="card-link" href="./cursos/redes.html">Ler mais...</a>
           </div>
+           <!-- curso (rede de computadores)-->
         </article>
 
-        <article class="noticia-card">
-          <figure>
-            <img src="./img/laboratorio.png" alt="Laboratório de banco de dados" />
-            <figcaption>Novo laboratório de dados.</figcaption>
-          </figure>
-          <div class="noticia-conteudo">
-            <p class="tag">Cursos</p>
-            <h2>Curso técnico ganha laboratório de banco de dados</h2>
-            <p class="subtitulo">
-              Espaço foi montado com apoio de empresas parceiras do campus.
-            </p>
-            <p class="meta">
-              Publicado em <time datetime="2026-08-19T21:06">19 de agosto de 2026</time>
-            </p>
-            <a class="card-link" href="./noticias/noticia-banco-dados.html">Ler mais...</a>
-          </div>
-        </article>
 
-<article class="noticia-card">
-  <figure>
-    <img src="./img/futsal.jpg" alt="Equipe esportiva do campus" />
-    <figcaption>Equipe de futsal do IFC.</figcaption>
-  </figure>
-  <div class="noticia-conteudo">
-    <p class="tag">Esportes</p>
-    <h2>Time de futsal conquista vaga na fase regional</h2>
-    <p class="subtitulo">
-      Classificação veio após vitória por 4 a 2 na última rodada.
-    </p>
-    <p class="meta">
-      Publicado em <time datetime="2026-08-15T19:00">15 de agosto de 2026</time>
-    </p>
-    <a class="card-link" href="./noticias/noticia-futsal.html">Ler mais...</a>
-  </div>
+
+        <!--  curso 2 (Sistema da informação)-->
+       <article class="projeto">
+          <figure>
+            <img src="./img/bsi.png" alt="bsi" />
+            <figcaption>Bacharelado em SI</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Bacharelado</p>
+            <h2>Sistemas Da Informação</h2>
+            <p>
+              o curso tem por missão formar profissionais aptos ao planejamento, aquisição e gerenciamento de serviços e recursos da Tecnologia da Informação e Comunicação aplicados ao desenvolvimento e à evolução de sistemas e infraestruturas de automatização dos processos organizacionais.
+            </p>
+            <ul class="projeto-tags">
+              <li>Bacharelado</li>
+              <li>Sistemas</li>
+              <li>Informação</li>
+            </ul>
+            <a class="card-link" href="./cursos/bsi.html">Ler mais...</a>
+          </div>
+          <!--  curso 2 (Sistema da informação)-->
+        </article>
+      <!-- ABA DE CURSOS EM PROCESSO -->
 </article>
       </section>
     </main>
@@ -136,7 +140,7 @@
         <nav aria-label="Rodapé">
           <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
             <li><a href="eventos.html">Eventos</a></li>
             <li><a href="projetos.html">Projetos</a></li>
             <li><a href="sobre.html">Sobre</a></li>

@@ -1,0 +1,82 @@
+/*bakcup de projetos.css para nov css de cursos.css*/
+
+/*retirado*/
+
+/*bakcup de projetos.css para nov css de cursos.css*/
+
+/*css para cursos*/
+section {
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+section h2 {
+    background: #e8e8e8;
+    padding: 16px 20px;
+    font-size: 16px;
+    color: #333;
+    border-left: 4px solid #007298;
+    margin: 0;
+}
+
+section {
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+section h2 {
+    background: #e8e8e8;
+    padding: 16px 20px;
+    font-size: 16px;
+    color: #333;
+    border-left: 4px solid #007298;
+    margin: 0;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+.presentation p {
+    margin-bottom: 16px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+}
+
+.info-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #007298;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.info-value {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/*css dos cursos*/
