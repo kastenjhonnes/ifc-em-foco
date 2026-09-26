@@ -1,3 +1,42 @@
+tag (ler mais )
+
+<a class="card-link" href="./noticias/noticia-html.html">Ler mais...</a>
+
+
+
+
+ <!-- informações do curso de redes de computadores-->
+
+        <p>
+          A Semana de Tecnologia do campus reuniu mais de 200 estudantes em três
+          dias de atividades. A programação incluiu palestras com profissionais
+          da região, oficinas práticas e um hackathon de 24 horas.
+        </p>
+
+        <p>
+          Durante o evento, os participantes tiveram contato com temas como
+          desenvolvimento web, banco de dados, segurança da informação e
+          inteligência artificial. As oficinas foram conduzidas por estudantes
+          dos cursos técnicos e por convidados externos.
+        </p>
+
+        <h2>Destaques da programação</h2>
+        <ul>
+          <li>Oficina de HTML e CSS para iniciantes;</li>
+          <li>Palestra sobre carreiras em tecnologia;</li>
+          <li>Hackathon com temas ligados ao campus;</li>
+          <li>Apresentação de projetos integradores.</li>
+        </ul>
+
+        <p>
+          Segundo a organização, a edição deste ano teve um aumento de 40% na
+          participação em relação ao ano anterior, o que reforça o interesse da
+          comunidade escolar por tecnologia.
+        </p>
+
+<!-- informações do curso de redes de computadores-->
+
+/*BACKUP CSS NOTICIAS*/
 .noticia-full {
   background-color: var(--cor-superficie);
   border: 1px solid var(--cor-borda);
@@ -131,3 +170,4 @@
     margin: 0.25rem 0;
   }
 }
+/*BACKUP CSS NOTICIAS*/

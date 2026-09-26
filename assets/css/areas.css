@@ -1,0 +1,133 @@
+.areas-cursos-full {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-grande);
+  padding: var(--espaco-lg);
+  box-shadow: var(--sombra);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.areas-header {
+  text-align: center;
+  margin-bottom: var(--espaco-md);
+}
+
+.areas-header h1 {
+  color: var(--cor-primaria);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin: 0.5rem 0;
+}
+
+.areas-header .subtitulo {
+  color: var(--cor-texto-suave);
+  font-size: 1.05rem;
+}
+
+.areas-header .meta {
+  color: var(--cor-texto-suave);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.imagem-publicacao {
+  margin: var(--espaco-md) 0;
+  border-radius: var(--raio);
+  overflow: hidden;
+  border: 1px solid var(--cor-borda);
+}
+
+.imagem-publicacao img {
+  width: 100%;
+  height: auto;
+}
+
+.imagem-publicacao figcaption {
+  background-color: #f3f4f6;
+  color: var(--cor-texto-suave);
+  font-size: 0.85rem;
+  padding: 0.5rem 0.8rem;
+  text-align: center;
+}
+
+.areas-cursos-full p {
+  margin-bottom: var(--espaco);
+  color: var(--cor-texto);
+  line-height: 1.7;
+}
+
+.areas-cursos-full h2 {
+  color: var(--cor-primaria);
+  font-size: 1.25rem;
+  margin: var(--espaco-md) 0 var(--espaco-xs);
+}
+
+.areas-cursos-full ul {
+  list-style: disc inside;
+  margin-bottom: var(--espaco);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: var(--cor-texto);
+}
+
+.voltar {
+  margin-top: var(--espaco-md);
+}
+
+.voltar a {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+
+.voltar a:hover,
+.voltar a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Formulário de avaliação */
+.avaliacao {
+  margin-top: var(--espaco-lg);
+  padding-top: var(--espaco-md);
+  border-top: 1px solid var(--cor-borda);
+}
+
+.avaliacao h2 {
+  color: var(--cor-primaria);
+  margin-bottom: var(--espaco);
+}
+
+.avaliacao form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-sm);
+}
+
+.avaliacao fieldset {
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  padding: var(--espaco-sm) var(--espaco);
+}
+
+.avaliacao legend {
+  font-weight: 700;
+  color: var(--cor-primaria);
+  padding: 0 0.4rem;
+}
+
+.avaliacao label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+@media (max-width: 520px) {
+  .areas-cursos-full {
+    padding: var(--espaco-md);
+  }
+
+  .avaliacao label {
+    display: block;
+    margin: 0.25rem 0;
+  }
+}
