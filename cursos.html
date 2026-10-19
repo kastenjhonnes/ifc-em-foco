@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notícias — IFC em Foco</title>
+    <title>Cursos — IFC em Foco</title>
+    <link rel="shortcut icon" href="favicon/ifc-foco-logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/cursos.css" />
     <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
   </head>
 
   <body>
@@ -29,7 +31,12 @@
         </nav>
       </div>
     </header>
-
+    <!-- imagem do ifc-->
+          <figure class="ifc-figure">
+            <img src="./img/banner.png" alt="Ilustração do campus do IFC" />
+            <figcaption>Campus Araquari — aprendendo, criando e compartilhando.</figcaption>
+          </figure>
+    <!-- imagem do ifc-->
     <main class="container section">
       <header class="section-header">
         <h1>Cursos Do Instituto Federal</h1>
@@ -49,14 +56,27 @@
             <label for="categoria">Categoria:</label>
             <select id="categoria" name="categoria">
               <option value="">Todas</option>
-              <option value="campus">Campus</option>
-              <option value="cursos">Cursos</option>
+              <option value="cursos">Curso</option>
               <option value="tecnologia">Tecnologia</option>
                <option value="tecnologia">Tecnologo</option>
                 <option value="tecnologia">Bacharelado</option>
-              <option value="esportes">Esportes</option>
+              <option value="esportes">Técnico</option>
                <option value="tecnologia">Infraestrutura</option>
-                <option value="tecnologia">Redes</option>
+               <option value="tecnologia">Internet</option>
+               <option value="tecnologia">Informática</option>
+                <option value="tecnologia">Medicina</option>
+                <option value="tecnologia">Agro</option>
+                <option value="tecnologia">Veterinária</option>
+                <option value="tecnologia">Licenciatura</option>
+                <option value="tecnologia">Infra</option>
+                <option value="tecnologia">Agronomia</option>
+                <option value="tecnologia">Ciência</option>
+                 <option value="tecnologia">Sistemas</option>
+                  <option value="tecnologia">Informação</option>
+                  <option value="tecnologia">Faculdade</option>
+                  <option value="tecnologia">Agro</option>
+                  <option value="tecnologia">Agropecuária</option>
+                   <option value="tecnologia">Agrimensura</option>
             </select>
           </div>
 
@@ -64,14 +84,13 @@
             <label for="tecnologia">Tecnologia:</label>
             <select id="tecnologia" name="tecnologia">
               <option value="">Todas</option>
-              <option value="html">HTML</option>
-              <option value="css">CSS</option>
-              <option value="javascript">JavaScript</option>
-              <option value="mysql">MySQL</option>
+              <option value="infraestrutura">Infraestrutura</option>
+              <option value="sistemas">Sistemas</option>
+              <option value="tecnologia">Tecnologia</option>
             </select>
           </div>
 
-          <button type="submit">Filtrar notícias</button>
+          <button type="submit">Filtrar Cursos</button>
         </form>
       </section>
       <!--- Filtro de pesquisa , categoria , tecnologia -->
@@ -84,11 +103,11 @@
        <article class="projeto">
           <figure>
             <!-- rede de computadores-->
-            <img src="./img/redes.png" alt="curso para estudantes" />
-            <figcaption> Curso Superior de Tecnologia em Redes de Computadores.</figcaption>
+            <img src="./img/card_redes_de_computadores.png" alt="rede_computadores" />
+            <figcaption> Curso Tecnologo Superior em Redes de Computadores</figcaption>
           </figure>
           <div class="projeto-corpo">
-            <p class="tag">Curso</p>
+            <p class="tag">Curso Técnologo Superior</p>
             <h2>Rede de computadores</h2>
             <p>
               o curso oferecido tem por objetivo formar profissionais com amplo conhecimento em projetos, análise de requisitos para o desenvolvimento de sistemas de comunicação e gestão de redes de computadores, de forma a atender a demanda de mercado, justificada pelos levantamentos técnicos e pesquisas realizadas na comunidade da região. 
@@ -97,6 +116,9 @@
               <li>Redes</li>
               <li>Infra</li>
               <li>Tecnologia</li>
+              <li>Faculdade</li>
+              <li>Tecnologo</li>
+              <li>Curso</li>
             </ul>
             <a class="card-link" href="./cursos/redes.html">Ler mais...</a>
           </div>
@@ -108,7 +130,7 @@
         <!--  curso 2 (Sistema da informação)-->
        <article class="projeto">
           <figure>
-            <img src="./img/bsi.png" alt="bsi" />
+            <img src="./img/card_bsi.png" alt="bsi" />
             <figcaption>Bacharelado em SI</figcaption>
           </figure>
           <div class="projeto-corpo">
@@ -121,12 +143,178 @@
               <li>Bacharelado</li>
               <li>Sistemas</li>
               <li>Informação</li>
+              <li>Curso</li>
+              <li>Faculdade</li>
             </ul>
             <a class="card-link" href="./cursos/bsi.html">Ler mais...</a>
           </div>
           <!--  curso 2 (Sistema da informação)-->
         </article>
       <!-- ABA DE CURSOS EM PROCESSO -->
+
+
+      <!--  curso 3 (Bacharelado em Agronomia)-->
+       <article class="projeto">
+          <figure>
+            <img src="./img/card_bacharelado_agronomia.png" alt="Bacharelado-agronomia"/>
+            <figcaption>Bacharelado em agronomia</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Bacharelado</p>
+            <h2>Bacharelado Em Agronomia</h2>
+            <p>
+              O curso de Graduação em Agronomia do Instituto Federal Catarinense Campus Araquari, vem ao encontro à vocação do Campus, com mais de 50 anos de formação voltadas ao ensino agrícola.
+            </p>
+            <ul class="projeto-tags">
+              <li>Bacharelado</li>
+              <li>Agronomia</li>
+              <li>Agro</li>
+              <li>Curso</li>
+              <li>Faculdade</li>
+            </ul>
+            <a class="card-link" href="./cursos/bacharelado_agronomia.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--  curso 3 (Bacharelado em Agronomia)-->
+
+         <!--  curso 4 (Bacharelado em Medicina Veterinária)-->
+        <article class="projeto">
+          <figure>
+            <img src="./img/card_medicina_veterinaria.png" alt="bacharelado_em_medicina_veterinaria" />
+            <figcaption>Bacharelado Em Medicina Veterinaria</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Bacharelado</p>
+            <h2>Bacharelado Em Medicina Veterinária</h2>
+            <p>
+              O curso de Bacharelado em Medicina Veterinária teve seu início em 2010 e vem ao encontro do espírito inovador do Instituto Federal Catarinense, visando suprir a carência de mercado, na formação direcionada de profissionais para atuarem na área.
+            </p>
+            <ul class="projeto-tags">
+              <li>Bacharelado</li>
+              <li>Veterinaria</li>
+              <li>Medicina</li>
+              <li>Curso</li>
+              <li>Faculdade</li>
+            </ul>
+            <a class="card-link" href="./cursos/bacharelado_medicina_veterinaria.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--  curso 4 (Bacharelado em Medicina Veterinária)-->
+
+        <!--  curso 5 (Licenciatura em ciencia agricola)-->
+        <article class="projeto">
+          <figure>
+            <img src="./img/ciencia-agricola.png" alt="licenciatura em ciencia agricola"/>
+            <figcaption>Licenciatura em Ciências Agricolas</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Licenciatura</p>
+            <h2>Licenciatura Em Ciências Agricolas</h2>
+            <p>
+             O curso de Licenciatura em Ciências Agrícolas, oferecido pelo Instituto Federal Catarinense Campus Araquari, oportuniza ao acadêmico a possibilidade de cumprir um importante papel ao habilitar profissionais para exercerem a docência na área das ciências agrárias em cursos nos distintos níveis e modalidades de ensino.
+            </p>
+            <ul class="projeto-tags">
+              <li>Licenciatura</li>
+              <li>Ciência</li>
+              <li>Agro</li>
+              <li>Curso</li>
+            </ul>
+            <a class="card-link" href="./cursos/licenciatura_ciencia_agricola.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--  curso 5 (Licenciatura em ciencia agricola)-->
+
+
+        <!--  curso 5 (Licenciatura Em Química)-->
+        <article class="projeto"> 
+          <figure>
+            <img src="./img/licenciatura_quimica.png" alt="Licenciatura em Química" />
+            <figcaption>Licenciatura Em Química</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Licenciatura</p>
+            <h2>Licenciatura Em Química</h2>
+            <p>O curso de Licenciatura em Química, pautado em suas Diretrizes Curriculares, engloba como competências e habilidades necessárias profissionalmente</p>
+            <ul class="projeto-tags">
+              <li>Licenciatura</li>
+              <li>Química</li>
+              <li>Curso</li>
+            </ul>
+            <a class="card-link" href="./cursos/licenciatura_quimica.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--  curso 5 (Licenciatura Em Química)-->
+
+
+        <!--  curso 5 (Tecnico integrado em agropecuaria)-->
+        <article class="projeto">
+          <figure>
+            <img src="./img/card_agropecuaria.png" alt="tecnico_agropecuaria" />
+            <figcaption>tecnico em agropecuaria</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Tecnico Em Agropecuária</h2>
+            <p>
+              O curso Técnico em Agropecuária, do Instituto Federal Catarinense Campus Araquari, é atualmente ofertado na modalidade integrada ao Ensino Médio.
+            </p>
+            <ul class="projeto-tags">
+              <li>Técnico</li>
+              <li>Agropecuária</li>
+              <li>Agro</li>
+              <li>Curso</li>
+            </ul>
+            <a class="card-link" href="./cursos/tecnico_agropecuaria.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--  curso 5 (Tecnico integrado em agropecuaria)-->
+
+
+        <!--- Curso 6( Técnico em Informática para Internet) -->
+        <article class="projeto">
+          <figure>
+            <img src="./img/card_tecnico_informatica_internet.png" alt="tecnico_informatica_internet" />
+            <figcaption>tecnico em informática para internet</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Técnico Em Informática Para Internet</p>
+            <h2>Técnico Em Informática Para Internet</h2>
+            <p>
+              O Curso Técnico em Informática para Internet Integrado ao Ensino Médio, oferecido pelo Instituto Federal Catarinense Campus Araquari, tem a característica de formar profissionais com conhecimento técnico para atuar na área de informática.
+            </p>
+            <ul class="projeto-tags">
+              <li>Técnico</li>
+              <li>Informática</li>
+              <li>Internet</li>
+              <li>Curso</li>
+            </ul>
+            <a class="card-link" href="./cursos/tecnico_informatica_internet.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--- Curso 6( Técnico em Informática para Internet) -->
+
+        <!--- Curso 6( Técnico Subsequente Em Informática para Internet) -->
+        <article class="projeto">
+          <figure>
+            <img src="./img/card_tecnico_subsequente_agrimensura.png" alt="card_tecnico_subsequente_agrimensura" />
+            <figcaption>tecnico subsequente em agrimensura</figcaption>
+          </figure>
+          <div class="projeto-corpo">
+            <p class="tag">Técnico Subsequente Em Agrimensura</p>
+            <h2>Técnico Subsequente Em Agrimensura</h2>
+            <p>
+              A Agrimensura vem evoluindo para mostrar, com a maior precisão possível, os espaços ocupados pelo homem. 
+            </p>
+            <ul class="projeto-tags">
+              <li>Técnico</li>
+              <li>Agrimensura</li>
+              <li>Agro</li>
+              <li>Curso</li>
+            </ul>
+            <a class="card-link" href="./cursos/tecnico_subsequente_agrimensura.html">Ler mais...</a>
+          </div>
+        </article>
+        <!--- Curso 6( Técnico Subsequente Em Informática para Internet) -->
+
 </article>
       </section>
     </main>

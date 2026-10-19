@@ -46,12 +46,14 @@
 .hero-actions .btn-ghost {
   color: #fff;
   border-color: #fff;
+  text-decoration: none;
 }
 
 .hero-actions .btn-ghost:hover,
 .hero-actions .btn-ghost:focus-visible {
   background-color: #fff;
   color: var(--cor-primaria);
+  
 }
 
 .hero-figure {
@@ -59,6 +61,7 @@
   border-radius: var(--raio-grande);
   overflow: hidden;
   box-shadow: var(--sombra-forte);
+  
 }
 
 .hero-figure img {

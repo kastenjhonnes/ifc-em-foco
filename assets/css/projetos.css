@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   transition: transform var(--transicao), box-shadow var(--transicao);
+  margin: 25px;
 }
 
 .projeto:hover {
