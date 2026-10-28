@@ -80,6 +80,22 @@ section h2 {
 
 /*css dos cursos*/
 
+/* Filtro de cursos */
+.projeto[hidden] {
+  display: none;
+}
+
+.sem-resultados {
+  background-color: var(--cor-superficie, #fff);
+  border: 1px solid var(--cor-borda, #e5e7eb);
+  border-radius: var(--raio-grande, 16px);
+  box-shadow: var(--sombra, 0 4px 12px rgba(0, 0, 0, 0.06));
+  color: var(--cor-texto-suave, #6b7280);
+  padding: var(--espaco-md, 1.5rem);
+  margin: 25px;
+  text-align: center;
+}
+
 
 /*iamgem do ifc*/
 
