@@ -44,7 +44,7 @@
       </header>
 
       <!-- Filtro de pesquisa , categoria , tecnologia -->
-      <section class="filtro" aria-label="Filtro de notícias">
+      <section class="filtro" aria-label="Filtro de cursos">
         <form method="get" action="cursos.html">
           <div class="campo">
             <label for="busca">Pesquisar:</label>
@@ -56,27 +56,6 @@
             <label for="categoria">Categoria:</label>
             <select id="categoria" name="categoria">
               <option value="">Todas</option>
-              <option value="cursos">Curso</option>
-              <option value="tecnologia">Tecnologia</option>
-               <option value="tecnologia">Tecnologo</option>
-                <option value="tecnologia">Bacharelado</option>
-              <option value="esportes">Técnico</option>
-               <option value="tecnologia">Infraestrutura</option>
-               <option value="tecnologia">Internet</option>
-               <option value="tecnologia">Informática</option>
-                <option value="tecnologia">Medicina</option>
-                <option value="tecnologia">Agro</option>
-                <option value="tecnologia">Veterinária</option>
-                <option value="tecnologia">Licenciatura</option>
-                <option value="tecnologia">Infra</option>
-                <option value="tecnologia">Agronomia</option>
-                <option value="tecnologia">Ciência</option>
-                 <option value="tecnologia">Sistemas</option>
-                  <option value="tecnologia">Informação</option>
-                  <option value="tecnologia">Faculdade</option>
-                  <option value="tecnologia">Agro</option>
-                  <option value="tecnologia">Agropecuária</option>
-                   <option value="tecnologia">Agrimensura</option>
             </select>
           </div>
 
@@ -84,9 +63,6 @@
             <label for="tecnologia">Tecnologia:</label>
             <select id="tecnologia" name="tecnologia">
               <option value="">Todas</option>
-              <option value="infraestrutura">Infraestrutura</option>
-              <option value="sistemas">Sistemas</option>
-              <option value="tecnologia">Tecnologia</option>
             </select>
           </div>
 
@@ -99,8 +75,8 @@
       <!-- ABA DE CURSOS EM PROCESSO -->
        
       <!-- curso (rede de computadores)-->
-       
-       <article class="projeto">
+       <div class="cursos-lista" id="cursos-lista">
+       <article class="projeto" data-categoria="tecnologo" data-tecnologia="informatica">
           <figure>
             <!-- rede de computadores-->
             <img src="./img/card_redes_de_computadores.png" alt="rede_computadores" />
@@ -128,7 +104,7 @@
 
 
         <!--  curso 2 (Sistema da informação)-->
-       <article class="projeto">
+       <article class="projeto" data-categoria="bacharelado" data-tecnologia="informatica" data-termos="bsi">
           <figure>
             <img src="./img/card_bsi.png" alt="bsi" />
             <figcaption>Bacharelado em SI</figcaption>
@@ -143,6 +119,8 @@
               <li>Bacharelado</li>
               <li>Sistemas</li>
               <li>Informação</li>
+              <li>BSI</li>
+              <li>Tecnologia</li>
               <li>Curso</li>
               <li>Faculdade</li>
             </ul>
@@ -154,7 +132,7 @@
 
 
       <!--  curso 3 (Bacharelado em Agronomia)-->
-       <article class="projeto">
+       <article class="projeto" data-categoria="bacharelado" data-tecnologia="agro">
           <figure>
             <img src="./img/card_bacharelado_agronomia.png" alt="Bacharelado-agronomia"/>
             <figcaption>Bacharelado em agronomia</figcaption>
@@ -178,7 +156,7 @@
         <!--  curso 3 (Bacharelado em Agronomia)-->
 
          <!--  curso 4 (Bacharelado em Medicina Veterinária)-->
-        <article class="projeto">
+        <article class="projeto" data-categoria="bacharelado" data-tecnologia="saude">
           <figure>
             <img src="./img/card_medicina_veterinaria.png" alt="bacharelado_em_medicina_veterinaria" />
             <figcaption>Bacharelado Em Medicina Veterinaria</figcaption>
@@ -202,7 +180,7 @@
         <!--  curso 4 (Bacharelado em Medicina Veterinária)-->
 
         <!--  curso 5 (Licenciatura em ciencia agricola)-->
-        <article class="projeto">
+        <article class="projeto" data-categoria="licenciatura" data-tecnologia="agro">
           <figure>
             <img src="./img/ciencia-agricola.png" alt="licenciatura em ciencia agricola"/>
             <figcaption>Licenciatura em Ciências Agricolas</figcaption>
@@ -226,7 +204,7 @@
 
 
         <!--  curso 5 (Licenciatura Em Química)-->
-        <article class="projeto"> 
+        <article class="projeto" data-categoria="licenciatura" data-tecnologia="ciencias">
           <figure>
             <img src="./img/licenciatura_quimica.png" alt="Licenciatura em Química" />
             <figcaption>Licenciatura Em Química</figcaption>
@@ -247,13 +225,14 @@
 
 
         <!--  curso 5 (Tecnico integrado em agropecuaria)-->
-        <article class="projeto">
+         <article class="projeto" data-categoria="tecnico" data-tecnologia="agro">
           <figure>
             <img src="./img/card_agropecuaria.png" alt="tecnico_agropecuaria" />
             <figcaption>tecnico em agropecuaria</figcaption>
           </figure>
           <div class="projeto-corpo">
-            <p class="tag">Tecnico Em Agropecuária</h2>
+            <p class="tag">Técnico</p>
+            <h2>Técnico Em Agropecuária</h2>
             <p>
               O curso Técnico em Agropecuária, do Instituto Federal Catarinense Campus Araquari, é atualmente ofertado na modalidade integrada ao Ensino Médio.
             </p>
@@ -270,7 +249,7 @@
 
 
         <!--- Curso 6( Técnico em Informática para Internet) -->
-        <article class="projeto">
+        <article class="projeto" data-categoria="tecnico" data-tecnologia="informatica">
           <figure>
             <img src="./img/card_tecnico_informatica_internet.png" alt="tecnico_informatica_internet" />
             <figcaption>tecnico em informática para internet</figcaption>
@@ -285,6 +264,7 @@
               <li>Técnico</li>
               <li>Informática</li>
               <li>Internet</li>
+              <li>Tecnologia</li>
               <li>Curso</li>
             </ul>
             <a class="card-link" href="./cursos/tecnico_informatica_internet.html">Ler mais...</a>
@@ -293,7 +273,7 @@
         <!--- Curso 6( Técnico em Informática para Internet) -->
 
         <!--- Curso 6( Técnico Subsequente Em Informática para Internet) -->
-        <article class="projeto">
+        <article class="projeto" data-categoria="tecnico" data-tecnologia="agro">
           <figure>
             <img src="./img/card_tecnico_subsequente_agrimensura.png" alt="card_tecnico_subsequente_agrimensura" />
             <figcaption>tecnico subsequente em agrimensura</figcaption>
@@ -314,9 +294,11 @@
           </div>
         </article>
         <!--- Curso 6( Técnico Subsequente Em Informática para Internet) -->
+       </div>
 
-</article>
-      </section>
+       <p id="sem-resultados" class="sem-resultados" hidden>
+         Nenhum curso encontrado com os filtros selecionados.
+       </p>
     </main>
 
     <footer class="site-footer">
@@ -338,5 +320,6 @@
       </div>
       <p class="copy">© 2026 IFC em Foco — Projeto acadêmico.</p>
     </footer>
+    <script src="./assets/js/cursos.js"></script>
   </body>
 </html>
